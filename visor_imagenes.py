@@ -129,6 +129,6 @@ def convolucion_imagen(imagen: list)->list:
         imagen (list) Matriz de MxN con tuplas (R,G,B) que representan la imagen a convolucionar.
     """
     
-    convolucion = [[1,2,1],[2,3,2],[1,2,1]]
+    #convolucion = [[1,2,1],[2,3,2],[1,2,1]]
     return imagen
 

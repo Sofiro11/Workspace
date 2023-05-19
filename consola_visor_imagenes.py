@@ -54,9 +54,9 @@ def ejecutar_convolucionar_imagen(imagen: list) -> list:
         imagen (list) Matriz (M,N,3) con la imagen a convolucionar.
     """
     print("Calculando imagen...")
-    imagen = visor_imagenes.convolucion_imagen_version4(imagen)
+    #imagen = visor_imagenes.convolucion_imagen_version4(imagen)
 
-    visor_imagenes.visualizar_imagen(imagen)
+    #visor_imagenes.visualizar_imagen(imagen)
     return imagen
 
 
